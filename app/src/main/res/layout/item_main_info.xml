@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/item_info_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/info_promo"
+        android:textColor="@color/textBlack"
+        android:textSize="@dimen/_15ssp"
+        android:fontFamily="@font/helvetica"
+        android:layout_marginTop="@dimen/_16sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/item_info_desc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/semua_info_dan_promo_yang_ada_di_kompis"
+        android:textSize="@dimen/_8ssp"
+        android:fontFamily="@font/helvetica"
+        android:layout_marginTop="@dimen/_5sdp"
+        android:layout_marginStart="@dimen/_16sdp"
+        app:layout_constraintTop_toBottomOf="@id/item_info_title"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/item_info_more"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/_10ssp"
+        android:text="@string/lihat_semua"
+        android:textColor="@color/colorPrimaryDark"
+        android:fontFamily="@font/helvetica"
+        android:layout_marginEnd="@dimen/_16sdp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/item_info_title"
+        app:layout_constraintBottom_toBottomOf="@id/item_info_title"/>
+    
+    <ImageView
+        android:id="@+id/item_info_image"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_100sdp"
+        android:src="@drawable/image_info"
+        android:scaleType="centerCrop"
+        android:layout_marginTop="@dimen/_5sdp"
+        app:layout_constraintTop_toBottomOf="@id/item_info_desc"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

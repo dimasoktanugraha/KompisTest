@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Kompis</string>
+    <string name="bank_sampah_berkah">Bank Sampah Berkah</string>
+    <string name="manage_saldo_sampah_anda">Manage Saldo Sampah Anda :</string>
+    <string name="saldo_kompis">Saldo Kompis</string>
+    <string name="rp">Rp</string>
+    <string name="history">History</string>
+    <string name="transfer">Transfer</string>
+    <string name="info_promo"><![CDATA[Info & Promo]]></string>
+    <string name="lihat_semua">Lihat Semua</string>
+    <string name="list_penjemputan">List Penjemputan</string>
+    <string name="menu_bank_sampah_kompis">Menu bank sampah kompis</string>
+    <string name="tarik_tunai">Tarik Tunai</string>
+    <string name="poin_kompis">Poin Kompis</string>
+    <string name="semua_info_dan_promo_yang_ada_di_kompis">Semua info dan promo yang ada di kompis</string>
+    <string name="sedang_diproses">Sedang diproses</string>
+</resources>
